@@ -1,0 +1,35 @@
+{
+  "name": "animated-explained-algorithms",
+  "version": "1.0.0",
+  "description": "Proyecto Web-Algoritmos-y-Estructura-de-Datos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TETvega/Animated-Explained-Algorithms.git"
+  },
+  "keywords": [
+    "algoritmos"
+  ],
+  "author": "Héctor René Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TETvega/Animated-Explained-Algorithms/issues"
+  },
+  "homepage": "https://github.com/TETvega/Animated-Explained-Algorithms#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "prettier-plugin-tailwindcss": "^0.5.14"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3"
+  }
+}

@@ -4,10 +4,15 @@ import userRouter from './src/routes/userRoute.js'
 // crear server 
 const app = express()
 
-app.use('/auth' , userRouter)
+
 
 // carpeta Publica 
 app.use(express.static('./public'))
+
+app.set('view engine' ,  'ejs')
+app.set('views' , './src/views')
+
+app.use('/auth' , userRouter)
 
 // definir un puerto para el servidor o app
 

@@ -501,25 +501,30 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.mt-10 {
-  margin-top: 2.5rem;
+.top-7 {
+  top: 1.75rem;
 }
-.max-w-lg {
-  max-width: 32rem;
+.bottom-8 {
+  bottom: 2rem;
 }
-.max-w-md {
-  max-width: 28rem;
-}
-.items-center {
-  align-items: center;
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 .text-center {
   text-align: center;
 }
-.align-middle {
-  vertical-align: middle;
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
-.text-blue-600 {
+.font-extrabold {
+  font-weight: 800;
+}
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.hover\:bg-slate-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }

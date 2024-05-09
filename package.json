@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/TETvega/Animated-Explained-Algorithms#readme",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
     "prettier-plugin-tailwindcss": "^0.5.14"
   },
